@@ -1,0 +1,20 @@
+.gameOverContainer{
+  width: 300px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #115173;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameOverContainer h1{
+  color: #ffd700;
+}
+
+.gameOverContainer p span{
+  font-size: 20px;
+  color: gold;
+}

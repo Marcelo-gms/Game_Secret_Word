@@ -1,0 +1,51 @@
+.HeaderContainer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #053f5e;
+}
+
+.NavContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 90px;
+  max-height: 80px;
+}
+
+.List {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px 15px;
+  padding: 5px;
+}
+
+.ItemList {
+  font-size: 20px;
+  color: #ffd700;
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.ItemList a {
+  text-decoration: none;
+  color: #ffd700;
+}
+
+.contacts {
+  font-size: 20px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  /* background-color: #ffd700; */
+  background-color: #053f5e;
+  color: #ffd700;
+  outline: none;
+  font-weight: 600;
+  cursor: pointer;
+}

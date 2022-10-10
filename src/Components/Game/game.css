@@ -1,0 +1,80 @@
+.game {
+  max-width: 700px;
+  margin: 8px auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #115173;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  color: white;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+}
+
+.game h1 {
+  margin: 10px 0;
+  color: #ffd700;
+}
+
+.game p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.points span {
+  font-weight: bold;
+  padding: 0 10px;
+}
+.dica {
+  color: gold;
+  padding: 5px;
+  text-transform: uppercase;
+}
+.wordContainer {
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
+  border: 15px solid #ffd700;
+}
+
+.letter,
+.blankSquare {
+  width: 100px;
+  height: 100px;
+  font-size: 70px;
+  text-align: center;
+  border: 2px solid #000;
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.letterContainer {
+  margin: 10px 0;
+}
+.letterContainer form input {
+  width: 60px;
+  min-height: 3em;
+  margin: 0 10px;
+  text-align: center;
+  font-size: 20px;
+  outline: none;
+}
+
+.wrongLetterContainer p {
+  font-size: 25px;
+}
+.wrongLetterContainer span {
+  font-size: 25px;
+}
+
+.btnGameOver{
+  display: none;
+}
+
+
+@media (max-width:650px){
+
+  .game{
+    width: 95%;
+  }
+}
